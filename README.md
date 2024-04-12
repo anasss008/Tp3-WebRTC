@@ -20,6 +20,7 @@ Ce travail a été réalisé en collaboration avec les membres du groupe suivant
 - WebRTC API
 - Node.js et Socket.io
 - WebSocket
+- XHR
 - ...
 
 ## Fonctionnalités
