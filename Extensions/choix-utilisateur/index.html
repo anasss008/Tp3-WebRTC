@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technologie souhaitée</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript">
+      function redirectToPage(choice) {
+        if (choice === 'xhr') {
+          window.location.href = '../xhr/index.html'; // The filename of your XHR page
+        } else if (choice === 'socket') {
+          window.location.href = '../socketio/index.html'; // The filename of your Socket.io page
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Choisissez le canal de communication (Technologie)</h1>
+      <button onclick="redirectToPage('xhr')">XHR</button>
+      <button onclick="redirectToPage('socket')">Socket.io</button>
+    </div>
+  </body>
+</html>
