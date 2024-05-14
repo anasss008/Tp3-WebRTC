@@ -18,10 +18,11 @@ Ce travail a été réalisé en collaboration avec les membres du groupe suivant
 
 - HTML5
 - WebRTC API
-- Node.js et Socket.io
+- Node.js
+- Socket.io
 - WebSocket
 - XHR
-- ...
+- Firebase et firestore
 
 ## Fonctionnalités
 
